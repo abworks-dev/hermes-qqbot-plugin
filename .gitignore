@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+dist/
+build/
+.env
+.env.*
+!.env.example
+config.yaml
+*.log
+logs/
+backups/
+*.pem
+*.key
+# Operator-only records: local paths and runtime details must not be published.
+DEPLOYMENT.md
+IMPLEMENTATION.md

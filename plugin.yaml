@@ -1,0 +1,39 @@
+name: qqbot-standalone
+label: QQ Bot (standalone)
+kind: platform
+version: 1.0.0
+description: Standalone QQ Bot gateway, native media, streaming, keyboards and explicit menu/panel management.
+author: Hermes QQ plugin contributors
+python_dependencies:
+  - "httpx>=0.27,<1"
+  - "aiohttp>=3.9,<4"
+  - "cryptography>=42,<47"
+  - "qrcode>=7.4,<9"
+requires_env:
+  - name: QQ_APP_ID
+    description: QQ Bot App ID
+    prompt: QQ App ID
+    password: false
+  - name: QQ_CLIENT_SECRET
+    description: QQ Bot Client Secret
+    prompt: QQ Client Secret
+    password: true
+optional_env:
+  - name: QQ_ALLOWED_USERS
+    description: Allowed QQ user OpenIDs
+    password: false
+  - name: QQ_GROUP_ALLOWED_USERS
+    description: Allowed QQ group OpenIDs
+    password: false
+  - name: QQ_ALLOW_ALL_USERS
+    description: Explicitly allow all QQ users
+    password: false
+  - name: QQBOT_HOME_CHANNEL
+    description: QQ home channel OpenID
+    password: false
+  - name: QQBOT_HOME_CHANNEL_NAME
+    description: QQ home channel display name
+    password: false
+  - name: QQ_MARKDOWN_SUPPORT
+    description: Enable native QQ markdown
+    password: false
