@@ -4,6 +4,8 @@
 
 **Connect Hermes Agent to the official QQ Bot API: private chats, group mentions, native buttons, media and optional C2C streaming.**
 
+**Live demo: [recorded C2C exchange and post-restart group probe](DEMO.md)** — real observations, not a client screen recording; delivery limits are explicitly stated.
+
 A community-maintained platform plugin, not an official Tencent or Nous Research product. Requires a QQ Open Platform bot account; this is not a personal-account QQ protocol client.
 
 ## Status and features
