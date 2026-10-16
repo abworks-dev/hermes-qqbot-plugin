@@ -72,6 +72,13 @@ An OpenID is not a QQ account number. The plugin cannot grant proactive-message 
 
 Shared host authorization, waiter, validation and setup APIs remain upgrade-review seams. No hidden compatibility layer repairs arbitrary host thread/provenance bugs. See the Chinese README for detailed configuration and [CONTRIBUTING.md](CONTRIBUTING.md) for regression commands.
 
+## Pre-installation risk disclosure
+
+- Connects to QQ REST/WebSocket services and sends authorized messages, interactions and media. Downloads inbound attachments and reads/uploads explicitly selected local media. Host-managed logs, temporary files and media paths extend outside the plugin directory.
+- Audio transcription can send audio to the configured compatible STT service (such as Zhipu or OpenAI), with provider privacy and billing implications. Audio conversion may spawn an existing system `ffmpeg` executable without shell command interpolation; no binary is bundled.
+- Maintains gateway WebSocket, heartbeat and reconnect tasks. Interactive setup persists credentials through host-provided profile save APIs, not this repository. Menu/panel mutations and explicit CLI sends require `--apply`.
+- Replaces the bundled same-name QQ platform; optional tool override requires an explicit grant. Shared undocumented host-module imports remain compatibility risks. No self-updater or telemetry reporter is included.
+
 ## Feedback and license
 
 [Issues](https://github.com/abworks-dev/hermes-qqbot-plugin/issues/new/choose) · [Changelog](CHANGELOG.md) · [Security](SECURITY.md)
