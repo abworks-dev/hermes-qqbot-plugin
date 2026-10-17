@@ -1,6 +1,6 @@
 # Hermes QQ Bot Plugin
 
-> **目录状态：未获 Hermes 官方插件目录收录。** [维护者在 PR #139729 中依据规则 15 拒绝收录](https://github.com/NousResearch/hermes-agent/pull/139729#pullrequestreview-5557899756)：本项目替换内置 QQ 适配器。后续方向是基于最新上游，分批向核心贡献改进，而非通过改名重新申请目录。仓库与历史版本暂时保留；这不是官方认可的发行版，也不表示核心改进已合并。此公告不修改任何现有部署。
+> **交接状态：已接受 Hermes QQ Bot 适配器的社区维护邀请，待准备清单与审核。** [Nous 维护者提出将内置 QQ 适配器交接到本仓库](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234691874)，并明确此前规则 15 的拒绝已被新方案取代；[本仓库维护者已接受邀请](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234980659)。计划保留 `qqbot` 平台名及现有配置兼容性，清理私有接口与全局发送覆盖，在审核通过后再进入目录收录和用户迁移。**目前尚未完成收录、自动迁移或核心移除；历史版本不是已通过交接审核的发行版。** 维护为社区尽力支持，不承诺全天候服务。此公告不修改现有部署。
 
 [English](README.en.md) · [安装与兼容性](#安装与兼容性) · [验证范围](VERIFICATION.md) · [贡献指南](CONTRIBUTING.md)
 

@@ -1,6 +1,6 @@
 # Hermes QQ Bot Plugin
 
-> **Catalog status: not admitted to the official Hermes plugin catalog.** [Review on PR #139729 declined the listing under rule 15](https://github.com/NousResearch/hermes-agent/pull/139729#pullrequestreview-5557899756) because it replaces the bundled QQ adapter. Improvements are planned as small core contributions based on current upstream, not a renamed catalog submission. This repository and historical releases remain available; they are not an officially approved distribution, and planned contributions are not yet merged. This notice does not alter existing deployments.
+> **Handoff status: community maintainership invitation accepted; readiness review pending.** [Nous proposed handing the bundled QQ adapter over to this repository](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234691874), explicitly superseding the earlier rule-15 decline; [the maintainer has accepted](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234980659). The plan preserves the `qqbot` platform name and existing configuration compatibility, removes private-interface dependencies and the global send override, then proceeds to catalog admission and user migration after approval. **Admission, automatic migration and core removal are not complete; historical releases have not passed the handoff review.** Maintenance is community best-effort, not a 24/7 service commitment. This notice does not change existing deployments.
 
 [简体中文](README.md) · [Verification](VERIFICATION.md) · [Contributing](CONTRIBUTING.md)
 
