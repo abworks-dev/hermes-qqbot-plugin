@@ -1,5 +1,7 @@
 # Hermes QQ Bot Plugin
 
+> **Catalog status: not admitted to the official Hermes plugin catalog.** [Review on PR #139729 declined the listing under rule 15](https://github.com/NousResearch/hermes-agent/pull/139729#pullrequestreview-5557899756) because it replaces the bundled QQ adapter. Improvements are planned as small core contributions based on current upstream, not a renamed catalog submission. This repository and historical releases remain available; they are not an officially approved distribution, and planned contributions are not yet merged. This notice does not alter existing deployments.
+
 [简体中文](README.md) · [Verification](VERIFICATION.md) · [Contributing](CONTRIBUTING.md)
 
 **Connect Hermes Agent to the official QQ Bot API: private chats, group mentions, native buttons, media and optional C2C streaming.**
