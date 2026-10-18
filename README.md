@@ -1,6 +1,10 @@
 # Hermes QQ Bot Plugin
 
-> **交接状态：已接受 Hermes QQ Bot 适配器的社区维护邀请，待准备清单与审核。** [Nous 维护者提出将内置 QQ 适配器交接到本仓库](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234691874)，并明确此前规则 15 的拒绝已被新方案取代；[本仓库维护者已接受邀请](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234980659)。计划保留 `qqbot` 平台名及现有配置兼容性，清理私有接口与全局发送覆盖，在审核通过后再进入目录收录和用户迁移。**目前尚未完成收录、自动迁移或核心移除；历史版本不是已通过交接审核的发行版。** 维护为社区尽力支持，不承诺全天候服务。此公告不修改现有部署。
+> **状态更新（2026-10-18）：先前的社区维护交接邀请已由 Nous 撤回。** [维护者的最新说明](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6241774908)明确：内置 QQ Bot 适配器继续保留在 Hermes，不会自动将现有用户迁移到本插件。**本仓库不是内置 QQ 适配器的官方接管方，也未完成官方目录收录。**
+>
+> 当前方向：保留独立插件与已有隔离验证成果，优先推进核心 PR [#140540](https://github.com/NousResearch/hermes-agent/pull/140540) / [#140544](https://github.com/NousResearch/hermes-agent/pull/140544) 的正常评审；暂缓平台改名、共存改造及目录申请工程。当前公开版本仍使用 `qqbot-standalone` 插件名和 `qqbot` 平台名；按最新规则，未来若申请与内置适配器并列收录，必须采用独立的插件及平台身份。
+>
+> 历史记录：[原交接邀请](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234691874)与[当时的接受回复](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234980659)仅作历史保留，不代表当前接管安排。公开版本未包含未发布隔离候选的全部改造或验证结果。维护为社区尽力支持，不承诺全天候服务。**此次仅修正文档公告，不更改现有部署、凭据、配置或运行时，也不要求用户重启或迁移。**
 
 [English](README.en.md) · [安装与兼容性](#安装与兼容性) · [验证范围](VERIFICATION.md) · [贡献指南](CONTRIBUTING.md)
 
