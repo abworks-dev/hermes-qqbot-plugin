@@ -6,7 +6,7 @@
 >
 > 历史记录：[原交接邀请](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234691874)与[当时的接受回复](https://github.com/NousResearch/hermes-agent/pull/139729#issuecomment-6234980659)仅作历史保留，不代表当前接管安排。公开版本未包含未发布隔离候选的全部改造或验证结果。维护为社区尽力支持，不承诺全天候服务。**此次仅修正文档公告，不更改现有部署、凭据、配置或运行时，也不要求用户重启或迁移。**
 
-[English](README.en.md) · [安装与兼容性](#安装与兼容性) · [验证范围](VERIFICATION.md) · [贡献指南](CONTRIBUTING.md)
+[English](README.en.md) · [安装与兼容性](#安装与兼容性) · [主动群消息与合规 FAQ](FAQ.md) · [验证范围](VERIFICATION.md) · [贡献指南](CONTRIBUTING.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Hermes plugin](https://img.shields.io/badge/Hermes-platform_plugin-orange.svg)](https://github.com/NousResearch/hermes-agent)
